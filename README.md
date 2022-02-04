@@ -13,6 +13,6 @@ Once in visual studio you can chose Run > Run HelloFrined. This will open up an 
 This applciation also comes with tests to make sure that the code is working correctly. You can run those by choosing tests > run tests. 
 
 ## Exploring...
-I have made extensive comments in this application. Normally I shun comments because code should read like well written prose, but because you are new to the programming expirences I have mande comments to explain what I am doing in great detail. 
+I have made extensive comments in this application. Normally I shun comments because code should read like well written prose, but because you are new to the programming expirence I have added comments to explain what I am doing in great detail. 
 
 I would encourage you to play around with the application and try to get it to do something different... maybe change the word friend to somethign else. Remember to adjust the tests FIRST and then then code... then run unit tests to make sure that they pass... once they pass run your main program and make sure your changes are what you desire! More importantly.... HAVE FUN. Make the program do something neat! 
