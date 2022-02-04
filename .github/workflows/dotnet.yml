@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     env:
-      working-directory: ./Hello
+      working-directory: Hello
 
     runs-on: ubuntu-latest
 
