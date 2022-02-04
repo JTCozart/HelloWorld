@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloFriend", "HelloFriend\HelloFriend.csproj", "{B4F11B1B-8607-4DAC-A13E-6CE5D55AB665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloFriendTests", "HelloFriendTests\HelloFriendTests.csproj", "{EDC0CF85-5403-481D-9FDD-372D3B24FD94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F11B1B-8607-4DAC-A13E-6CE5D55AB665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F11B1B-8607-4DAC-A13E-6CE5D55AB665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC0CF85-5403-481D-9FDD-372D3B24FD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC0CF85-5403-481D-9FDD-372D3B24FD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
