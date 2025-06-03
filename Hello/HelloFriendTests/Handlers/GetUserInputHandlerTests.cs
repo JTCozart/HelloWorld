@@ -33,8 +33,8 @@ namespace HelloFriendTests.Handlers
         [Test]
         public void ThrowsIfInputIsBlank()
         {
-            var ex = Assert.Throws<Exception>(() => _handler.AskForInput(""));
-            ex.Message.Should().Be("You must supply an input value to ask users"); 
+            var ex = Assert.Throws<ArgumentException>(() => _handler.AskForInput(""));
+            ex.Message.Should().Be("You must supply an input value to ask users");
         }
     }
 }

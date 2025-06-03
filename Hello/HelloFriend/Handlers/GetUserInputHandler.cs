@@ -23,7 +23,7 @@ namespace HelloFriend.Handlers
             //It is important that we supply an input. So if an engineer uses this method and supplies and empty string 
             // the next two lines here will throw and exception and the program will fail
             if (string.IsNullOrEmpty(input))
-                throw new Exception("You must supply an input value to ask users"); 
+                throw new ArgumentException("You must supply an input value to ask users", nameof(input));
             
             _consoleWriter.Write(input); //ask for user input
             return _consoleWriter.Read(); // Read the input that the user writes and save it to a string that can be returned for other methods to use
